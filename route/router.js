@@ -7,7 +7,7 @@ router.post('/register',userctrl.register);
 router.post('/login',userctrl.login);
 router.post('/verify',userctrl.verify);
 
-router.post('/myref',myref.getcode)
+router.post('/myReferral',myref.getcode)
 module.exports = router;
 
 

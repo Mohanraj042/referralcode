@@ -5,7 +5,7 @@ class refservice{
 static async checkmyreferralCode(id)
 {
     try{
-        return await usermodels.findOne({_id:id},{myreferalCode:1})
+        return await usermodels.findOne({_id:id},{myreferalCode:1,_id:0})
     }
     catch(err)
     {
